@@ -1,0 +1,28 @@
+{
+  "name": "api-cse341",
+  "version": "1.0.0",
+  "description": "A simple API to practice API deployment with Nodejs and Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagopintus/api-cse341.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagopintus/api-cse341/issues"
+  },
+  "homepage": "https://github.com/santiagopintus/api-cse341#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

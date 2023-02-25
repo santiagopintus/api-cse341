@@ -1,0 +1,7 @@
+### Home
+http://localhost:1234
+
+### Get All Contacts
+http://localhost:1234/contacts
+### Get one Contact
+http://localhost:1234/contacts/63fa04d2a3424d3e6e741474
