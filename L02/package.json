@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A simple API to practice API deployment with Nodejs and Render",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "nodemon server.js"
   },
