@@ -1,5 +1,4 @@
-/* Handles Home Page */
-/* Exports like this because we only need one method by now*/
+/* Handles Home Route */
 module.exports = (req, res) => {
-  res.send("<h1>Ana Pintus</h1>");
+  res.send('<a href="/contacts">Go to Contacts</a>');
 };
