@@ -8,7 +8,6 @@
   "host": "contacts-api-44sf.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
