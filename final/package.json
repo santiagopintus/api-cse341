@@ -7,7 +7,7 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon --ext js --exec \"npm run swagger && node index.js\"",
     "swagger": "node swagger.js"
   },
   "repository": {
