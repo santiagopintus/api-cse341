@@ -41,9 +41,16 @@ const port = normalizePort(process.env.PORT || 1234);
 // For json formatting
 app.use(express.json());
 
+const whitelist = [
+  "https://cse341-contacts-frontend.netlify.app",
+  "https://contacts-api-44sf.onrender.com/",
+];
+
 app.use(
   cors({
-    origin: "https://cse341-contacts-frontend.netlify.app",
+    origin: whitelist,
+    methods: "GET,POST,PUT,DELETE",
+    allowedHeaders: "Content-Type,Authorization,Accept",
   })
 );
 
