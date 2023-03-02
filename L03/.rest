@@ -1,0 +1,66 @@
+### DEVELOPMENT ###
+
+### Home
+http://localhost:1234
+
+### GET All Contacts
+http://localhost:1234/contacts
+
+### GET one Contact
+http://localhost:1234/contacts/640008870c21ff28b2d0f0c3
+
+### CREATE a new Contact
+POST http://localhost:1234/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "John.Doe@example.com",
+  "favoriteColor": "blue",
+  "birthday": "1980-01-01"
+}
+
+### UPDATE a Contact
+PUT http://localhost:1234/contacts/640008870c21ff28b2d0f0c3 HTTP/1.1
+Content-Type: application/json
+
+{
+  "favoriteColor": "green"
+}
+
+### DELETE a Contact
+DELETE  http://localhost:1234/contacts/640008870c21ff28b2d0f0c3
+
+### PRODUCTION ---------------------------------------------###
+
+### Home
+https://l02-cse341.onrender.com/
+
+### Get All Contacts
+https://l02-cse341.onrender.com/contacts
+
+### Get one Contact
+https://l02-cse341.onrender.com/contacts/63fa04d2a3424d3e6e741474
+
+### Create a new Contact
+POST https://l02-cse341.onrender.com/contacts
+Content-Type: application/json
+
+{
+  "firstName": "David",
+  "lastName": "Pintus",
+  "email": "david.pintus@example.com",
+  "favoriteColor": "blue",
+  "birthday": "1980-01-01"
+}
+### UPDATE a Contact
+PUT https://l02-cse341.onrender.com/contacts/640008870c21ff28b2d0f0c3 HTTP/1.1
+Content-Type: application/json
+
+{
+  "favoriteColor": "green"
+}
+
+### DELETE a Contact
+DELETE  https://l02-cse341.onrender.com/contacts/640008870c21ff28b2d0f0c3
