@@ -12,7 +12,7 @@ const doc = {
   },
   host: "contacts-api-44sf.onrender.com",
   basePath: "/",
-  schemes: ["http", "https"],
+  schemes: ["https"],
   exclude: ["/api-docs"],
 };
 
