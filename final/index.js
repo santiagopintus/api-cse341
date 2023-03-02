@@ -1,5 +1,6 @@
 const { debug } = require("debug");
 const http = require("http");
+const cors = require("cors");
 const express = require("express");
 const app = express();
 
@@ -39,6 +40,12 @@ const port = normalizePort(process.env.PORT || 1234);
 
 // For json formatting
 app.use(express.json());
+
+app.use(
+  cors({
+    origin: "https://cse341-contacts-frontend.netlify.app",
+  })
+);
 
 // mount the router on the app
 app.use("/", require("./routes"));
